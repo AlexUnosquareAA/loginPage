@@ -62,7 +62,7 @@ const Login = (props) => {
 
   const emailChangeHandler = (event) => {
     dispatchEmail({ type: "USER_INPUT", val: event.target.value });
-
+    //This is the line that will make merge conflig - codeVersioning
     // setFormIsValid(
     //   event.target.value.includes("@") > 6 && passwordState.isValid
     // );
